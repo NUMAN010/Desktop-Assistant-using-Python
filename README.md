@@ -1,30 +1,30 @@
 # Desktop-Assistant-using-Python
-1. Create a new environment :
+1. CREATE A NEW ENVIRONMENT :
+
 ```bash
 conda create -n assistant python=3.9
 ```
-This command create's a python 3.9 version environment named as assistant.
 
-2. Check, if the environment is created :
+2. CHECH THE NEW CREATED ENVIRONMENT :
+
 ```bash
-conda env list : 
+conda env list  
 ```
-Checks the avaliable environments.
 
-3. Activate the environment :
+3. ACTIVATE THE ENVIRONMENT :
+
 ```bash
 conda activate assistant 
 ```
-Activates the new python 3.9 environment.
 
-4. Check the version :
+4. CHECK THE VERSION :
+
 ```bash
 pip list 
 ```
-Checks the new environment version. 
 
-5. Install the required Libraries and Packages.
+5. INSTALL THE LIBRARIES AND PACKAGES :
+
 ```bash
 pip install -r requirements.txt 
 ```
-Installs the required Libraries and Packages.
