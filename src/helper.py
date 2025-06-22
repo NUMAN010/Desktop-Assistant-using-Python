@@ -2,10 +2,11 @@ import speech_recognition as sr
 from gtts import gTTS
 import os
 import google.generativeai as genai
+from dotenv import load_dotenv
 
+load_dotenv()
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
-
-GOOGLE_API_KEY = 'AIzaSyDd2WYIKlp4X7-0MHXDYGrL2X-DP8tq6LU'
 os.environ['GOOGLE_API_KEY'] = GOOGLE_API_KEY
 
 
