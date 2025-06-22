@@ -28,3 +28,8 @@ pip list
 ```bash
 pip install -r requirements.txt 
 ```
+
+
+
+
+AIzaSyDd2WYIKlp4X7-0MHXDYGrL2X-DP8tq6LU
